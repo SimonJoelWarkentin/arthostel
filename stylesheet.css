@@ -55,11 +55,30 @@ h1 {color:#e6ffee; font-family:Arial}
 p {color:#e6ffee; font-family:Arial}
 b {color:#e6ffee; font-family:Arial}
 h2 {color:#e6ffee; font-family:Arial}
+h3 {color:#e6ffee; font-family:Arial}
 h5 {color:#e6ffee; font-family:Arial}
-a {color:#e6ffee; font-family:Arial}
+a {
+	margin:auto;
+	position: relative;
+	width: 100px;
+	border: none;
+	border-radius: 10px;
+	background-color: #003311;
+	text-align: center;
+	text-decoration: none;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	display: inline-block;
+	animation: bod;
+	text-align: center;
+	text-decoration: none;
+	color:#e6ffee;
+	font-family:Arial
+}
+
 
 .b1 {
-	background-color: #009933;
+	background-color: #006622;
 	margin:auto;
 }
 .b1:hover {
@@ -76,7 +95,7 @@ a {color:#e6ffee; font-family:Arial}
 	padding-bottom: 5px;
 	padding-top: 5px;
 	border-radius: 40px;
-	background-color: #592d2c;
+	background-color: #003311;
 	text-align: center;
 	animation-name: bota;
 	animation-duration: 0.6s;
@@ -92,7 +111,7 @@ a {color:#e6ffee; font-family:Arial}
 	padding-top: 5px;
 	border: none;
 	border-radius: 25px;
-	background-color: #804000;
+	background-color: #006622;
 	text-align: center;
 	animation-name: boc;
 	animation-duration:0.9s;
@@ -108,7 +127,7 @@ a {color:#e6ffee; font-family:Arial}
 	padding-top: 5px;
 	border: none;
 	border-radius: 25px;
-	background-color: #804000;
+	background-color: #006622;
 	text-align: center;
 	animation-name: boc;
 	animation-duration: 1.2s;
@@ -116,15 +135,9 @@ a {color:#e6ffee; font-family:Arial}
 
 .myDiv4 {
 	margin: auto;
-	margin-top:25px;
-	margin-bottom:25px;
 	position: relative;
-	width: 20%;
-	padding-bottom: 5px;
 	padding-top: 5px;
-	border: none;
-	border-radius: 25px;
-	background-color: #804000;
+	padding-bottom: 5px;
 	text-align: center;
 	animation-name: boc;
 	animation-duration: 1.5s;
@@ -136,7 +149,7 @@ a {color:#e6ffee; font-family:Arial}
 	width: 100px;
 	border: none;
 	border-radius: 10px;
-	background-color: #804000;
+	background-color: #003311;
 	text-align: center;
 	text-decoration: none;
 	transition-duration: 0.2s;
@@ -180,7 +193,7 @@ a {color:#e6ffee; font-family:Arial}
 	padding-top: 5px;
 	border: none;
 	border-radius: 25px;
-	background-color: #804000;
+	background-color: #006622;
 	text-align: center;
 	text-decoration: none;
 	transition-duration: 0.6s;
